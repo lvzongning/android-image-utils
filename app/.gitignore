@@ -1,0 +1,60 @@
+#OSX
+*.DS_Store
+
+#Gradle files
+build/
+.gradle
+*/build
+
+#IDEA
+*.iml
+.idea/.name
+.idea/encodings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/libraries
+*/misc.xml
+/captures
+
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+library/build/
+weiboSDK/build/
+.metadata
+
+# Log Files
+*.log
+/app/app.iml
+slibrary/library.iml
+weiboSDK/weiboSDK.iml
+
